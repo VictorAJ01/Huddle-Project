@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, .heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bgMobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-weight: 400;
+}
+
+.heading-400 {
+    font-weight: 400;
+}
+
+.heading-600 {
+    font-weight: 600;
+}
+
+#article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    width: 35%;
+    height: 35%;
+    margin: 8% 0 0 10%;
+}
+
+#img2 {
+    width: 80%;
+    height: 80%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 15%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+p {
+    color: rgb(228, 228, 228);
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.03rem;
+    font-weight: none;
+}
+
+#register {
+    background-color: #fff;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 7%;
+    width: 55%;
+    padding: 2.5% 0;
+    border: 1px #fff solid;
+    border-radius: 25px;
+    font-size: 0.85rem;
+}
+
+#register a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+
+#register:hover {
+    cursor: pointer;
+}
+
+#icons{
+   margin-top: 18%;
+   margin-left: 37%;
+}
+
+i{
+    color: #FFF;
+    font-size: 0.8rem;
+    margin: 1%;
+}
+
+.fa-brands.fa-facebook-f{
+    border: 1px #fff solid;
+    border-radius: 100px;
+    padding: 6px 8px;
+}
+
+.fa-brands.fa-twitter{
+    border: 1px #fff solid;
+    border-radius: 100px;
+    padding: 6px;
+}
+
+.fa-brands.fa-instagram{
+    border: 1px #fff solid;
+    border-radius: 100px;
+    padding: 6px;
+}
+
+.breake{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 7%;
+    padding-right: 7%;
+}
